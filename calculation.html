@@ -1,0 +1,30 @@
+
+<html>
+<head>
+<script>
+// Define a function for performing addition
+function addition() {
+    // Retrieve the values of the input fields by their IDs
+    var num1 = parseFloat(document.getElementById("firstNumber").value);
+    var num2 = parseFloat(document.getElementById("secondNumber").value);
+
+    // Check if the input values are valid numbers
+    
+        // Perform the addition and log the result
+        console.log("Result of addition: " + (num1 + num2));
+}
+</script>
+</head>
+<body>
+<form method="post">
+    <h1>Calculate Arithmetic Operations</h1> <br>
+    <label>Enter first Number: </label>
+    <input type="text" id="firstNumber" name="firstnumber" placeholder="firstnumber"/>
+    <br>
+    <label>Enter Second Number: </label>
+    <input type="text" id="secondNumber" name="secondnumber" placeholder="secondnumber"/>
+    <br>
+    <input type="button" value="Send Data" onclick="addition()"/>
+</form>
+</body>
+</html>
