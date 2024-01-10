@@ -9,6 +9,7 @@ function validateForm() {
     var Email= document.getElementById("Email").value;
     var Password= document.getElementById("Password").value;
     var Re-type password= document.getElementById("Re-type password").value;
+    var abc;
 
     if (firstName === "") {
         alert("Name must be filled out");
