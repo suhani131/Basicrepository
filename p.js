@@ -1,6 +1,6 @@
 function validateForm() {
   var firstName = document.getElementById("firstname").value;
-  var middlename = document.getElementById("middlename").value;
+  
   var lastname = document.getElementById("lastname").value;
   var course = document.getElementById("course").value;
   var Gender = document.getElementById("Gender").value;
@@ -15,10 +15,7 @@ function validateForm() {
     return false;
   }
 
-  if (middlename === "") {
-    alert ("please enter your middle name")
-    return false;
-  }
+  
 
   if (lastname === "") {
     alert ("please enter your last name")
